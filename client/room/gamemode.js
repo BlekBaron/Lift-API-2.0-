@@ -16,8 +16,8 @@ BreackGraph.PlayerBlockBoost = true;
 Properties.GetContext().GameModeName.Value = "GameModes/Team Dead Match"; 
 Ui.GetContext().MainTimerId.Value = mainTimer.Id; 
  
-Teams.Add("Blue", "живые", { b: 1 }); 
-Teams.Add("Red", "мёртвые", { r: 1 }); 
+Teams.Add("Blue", "<b>ВЫЖИВШИЕ</b>" new Color(0, 0, 1, 0));
+Teams.Add("Red", "<b>МЁРТВЫЕ</b>", new Color(1, 0, 0, 0));
  
 var blueTeam = Teams.Get("Blue"); 
 var redTeam = Teams.Get("Red"); 
