@@ -1,0 +1,43 @@
+{
+  "Name": "<b><color=Red>МАНЬЯК</a> <i>(API 2.0)</i></b>",
+  "Description": "<b><i><color=Red>Убей</a> всех, или продержись до <color=Red>конца...</a></i></b>",
+  "StartClientVersion": 334,
+  "MapFilter": {
+    "IsBlank": false,
+    "HasParcourEnd": false
+  },
+  "MapLists": [
+    {
+      "MapListId": 324,
+      "Name": "Официальные карты"
+    },
+    {
+      "MapListId": 581
+    }
+  ],
+  "Parameters": {
+    "Bool": [
+      {
+        "Name": "MapRotation",
+        "DisplayName": "GmParams/MapRotation",
+        "Default": true
+      },
+      {
+        "Name": "OnlyKnives",
+        "DisplayName": "GmParams/OnlyKnives"
+      },
+      {
+        "Name": "PartialDesruction",
+        "DisplayName": "GmParams/PartialDesruction"
+      },
+      {
+        "Name": "LoosenBlocks",
+        "DisplayName": "GmParams/LoosenBlocks"
+      },
+      {
+        "Name": "FriendlyFire",
+        "DisplayName": "GmParams/FriendlyFire"
+      }
+    ]
+  }
+}
